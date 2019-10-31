@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Koloda-Swift.h</key>
 		<data>
-		SrAEs27voZq2gIzqJjJtDuoRehw=
+		h5WQwaS8iuyRzoycXpvq/aXEzUI=
 		</data>
 		<key>Headers/Koloda.h</key>
 		<data>
@@ -14,23 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mH4aRcMJfZugjGleo0+0ujTU59w=
+		e76pL0GzQB7rThIHRPiFi6kU6qY=
+		</data>
+		<key>Modules/Koloda.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
+		<data>
+		DR78wGRzi+gd0H0p1snffm43jbo=
+		</data>
+		<key>Modules/Koloda.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
+		<data>
+		nNQ/oKa8xjFu5jP4v5l5MY5hYMM=
 		</data>
 		<key>Modules/Koloda.swiftmodule/i386.swiftdoc</key>
 		<data>
-		1ctHXcXmMcJBkp1E5V+/y/ToGQ8=
+		DR78wGRzi+gd0H0p1snffm43jbo=
 		</data>
 		<key>Modules/Koloda.swiftmodule/i386.swiftmodule</key>
 		<data>
-		OKLhM3OuNdrP3Hivtp4j4Ok48lw=
+		nNQ/oKa8xjFu5jP4v5l5MY5hYMM=
+		</data>
+		<key>Modules/Koloda.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		y9xVBhpT7SfNGTbKQQRWx0sZkOo=
+		</data>
+		<key>Modules/Koloda.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		vvtOv4OGBtcDvU/jy5JfBJqDia0=
 		</data>
 		<key>Modules/Koloda.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		LvFB1j0ctQWah1W4Ysz5PUT3GXU=
+		y9xVBhpT7SfNGTbKQQRWx0sZkOo=
 		</data>
 		<key>Modules/Koloda.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		+dX3xdqej6j++4fcyY4wJX5YBdA=
+		vvtOv4OGBtcDvU/jy5JfBJqDia0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,11 +59,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SrAEs27voZq2gIzqJjJtDuoRehw=
+			h5WQwaS8iuyRzoycXpvq/aXEzUI=
 			</data>
 			<key>hash2</key>
 			<data>
-			/wYTSaSu99/CrFytQ+sZaYhfZZz4+QtRSA8wyoEkLTE=
+			grNawhK6rTEg7B2AdtZy/FoDU62LOfVZAnU79m4FLUE=
 			</data>
 		</dict>
 		<key>Headers/Koloda.h</key>
@@ -61,48 +77,92 @@
 			t3lelpnYtm8/nCKkI/tSaUS3Prb5KYPfwP+S9SUbt9o=
 			</data>
 		</dict>
+		<key>Modules/Koloda.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DR78wGRzi+gd0H0p1snffm43jbo=
+			</data>
+			<key>hash2</key>
+			<data>
+			x88zZTupANDSQpssqCLFkeJyJ2lBXEoCn3FENNoDtLo=
+			</data>
+		</dict>
+		<key>Modules/Koloda.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nNQ/oKa8xjFu5jP4v5l5MY5hYMM=
+			</data>
+			<key>hash2</key>
+			<data>
+			LII7VwDZGPdgXQprVfBPKyccTAQJmA+uxj3zNmqvE4A=
+			</data>
+		</dict>
 		<key>Modules/Koloda.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1ctHXcXmMcJBkp1E5V+/y/ToGQ8=
+			DR78wGRzi+gd0H0p1snffm43jbo=
 			</data>
 			<key>hash2</key>
 			<data>
-			iACxNb8hS80TbvkGabyvqUxTzor1bsTnq6Q17uEjPyY=
+			x88zZTupANDSQpssqCLFkeJyJ2lBXEoCn3FENNoDtLo=
 			</data>
 		</dict>
 		<key>Modules/Koloda.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OKLhM3OuNdrP3Hivtp4j4Ok48lw=
+			nNQ/oKa8xjFu5jP4v5l5MY5hYMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			aWJ/1/giyMfYkTZGfYbUPMVgaNQK+E9YWnDmMYMjQEM=
+			LII7VwDZGPdgXQprVfBPKyccTAQJmA+uxj3zNmqvE4A=
+			</data>
+		</dict>
+		<key>Modules/Koloda.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y9xVBhpT7SfNGTbKQQRWx0sZkOo=
+			</data>
+			<key>hash2</key>
+			<data>
+			k8VzrakepYMa9XAQVje/fe/pzEY0KnvMiKP3jFZxyMQ=
+			</data>
+		</dict>
+		<key>Modules/Koloda.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vvtOv4OGBtcDvU/jy5JfBJqDia0=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZPKFmvpjRFaeKooyAXDBAYCZifwiSUFmXj0q46oog24=
 			</data>
 		</dict>
 		<key>Modules/Koloda.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LvFB1j0ctQWah1W4Ysz5PUT3GXU=
+			y9xVBhpT7SfNGTbKQQRWx0sZkOo=
 			</data>
 			<key>hash2</key>
 			<data>
-			FUSsdjlAPvLxFjGtHqotXyUYKMhV+b0/5FBo/4K0FV4=
+			k8VzrakepYMa9XAQVje/fe/pzEY0KnvMiKP3jFZxyMQ=
 			</data>
 		</dict>
 		<key>Modules/Koloda.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+dX3xdqej6j++4fcyY4wJX5YBdA=
+			vvtOv4OGBtcDvU/jy5JfBJqDia0=
 			</data>
 			<key>hash2</key>
 			<data>
-			JNyNafnZj0FaCmG+pc6sl2qGgzKsUkJcdz71UcwrfHY=
+			ZPKFmvpjRFaeKooyAXDBAYCZifwiSUFmXj0q46oog24=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -119,7 +179,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -150,24 +210,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -203,13 +251,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

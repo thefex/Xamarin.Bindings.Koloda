@@ -7,7 +7,7 @@ using UIKit;
 namespace Xamarin.Bindings.Koloda
 {
     // @interface DraggableCardView : UIView <UIGestureRecognizerDelegate>
-    [BaseType(typeof(UIView))]
+    [BaseType(typeof(UIView), Name = "_TtC6Koloda17DraggableCardView")]
     [DisableDefaultCtor]
     interface DraggableCardView : IUIGestureRecognizerDelegate
     {
@@ -15,11 +15,6 @@ namespace Xamarin.Bindings.Koloda
         [Static]
         [Export("new")]
         DraggableCardView New();
-
-        // -(instancetype _Nullable)initWithCoder:(NSCoder * _Nonnull)aDecoder __attribute__((objc_designated_initializer));
-        [Export("initWithCoder:")]
-        [DesignatedInitializer]
-        IntPtr Constructor(NSCoder aDecoder);
 
         // @property (nonatomic) CGRect frame;
         [Export("frame", ArgumentSemantic.Assign)]
@@ -31,7 +26,7 @@ namespace Xamarin.Bindings.Koloda
     }
 
     // @interface KolodaView : UIView
-    [BaseType(typeof(UIView))]
+    [BaseType(typeof(UIView), Name = "_TtC6Koloda10KolodaView")]
     interface KolodaView
     {
         // @property (nonatomic) NSInteger countOfVisibleCards;
@@ -52,11 +47,16 @@ namespace Xamarin.Bindings.Koloda
 
         // @property (nonatomic, weak) id<KolodaViewDataSource> _Nullable dataSource;
         [NullAllowed, Export("dataSource", ArgumentSemantic.Weak)]
-        KolodaViewDataSource DataSource { get; set; }
+        // We had to change that to NSObject
+        NSObject DataSource { get; set; }
 
+        /*
         [Wrap("WeakDelegate")]
         [NullAllowed]
         KolodaViewDelegate Delegate { get; set; }
+
+        We have to remove this as it just wraps weakly typed delegate.
+        */
 
         // @property (nonatomic, weak) id<KolodaViewDelegate> _Nullable delegate;
         [NullAllowed, Export("delegate", ArgumentSemantic.Weak)]
@@ -111,15 +111,10 @@ namespace Xamarin.Bindings.Koloda
         [Export("initWithFrame:")]
         [DesignatedInitializer]
         IntPtr Constructor(CGRect frame);
-
-        // -(instancetype _Nullable)initWithCoder:(NSCoder * _Nonnull)aDecoder __attribute__((objc_designated_initializer));
-        [Export("initWithCoder:")]
-        [DesignatedInitializer]
-        IntPtr Constructor(NSCoder aDecoder);
     }
 
     // @protocol KolodaViewDataSource
-    [Protocol, Model]
+    [Protocol(Name = "_TtP6Koloda20KolodaViewDataSource_"), Model]
     interface KolodaViewDataSource
     {
         // @required -(NSInteger)kolodaNumberOfCards:(KolodaView * _Nonnull)koloda __attribute__((warn_unused_result));
@@ -145,14 +140,13 @@ namespace Xamarin.Bindings.Koloda
     }
 
     // @protocol KolodaViewDelegate
-    [Protocol, Model]
+    [Protocol(Name = "_TtP6Koloda18KolodaViewDelegate_"), Model]
     interface KolodaViewDelegate
     {
         // @required -(NSArray * _Nonnull)koloda:(KolodaView * _Nonnull)koloda allowedDirectionsForIndex:(NSInteger)index __attribute__((warn_unused_result));
         [Abstract]
         [Export("koloda:allowedDirectionsForIndex:")]
-       // [Verify(StronglyTypedNSArray)]
-        NSObject[] Koloda(KolodaView koloda, nint index);
+        NSArray GetAllowedDirectionsForIndex(KolodaView koloda, nint index);
 
         // @required -(BOOL)koloda:(KolodaView * _Nonnull)koloda shouldSwipeCardAt:(NSInteger)index in:(enum SwipeResultDirection)direction __attribute__((warn_unused_result));
         [Abstract]
@@ -226,17 +220,12 @@ namespace Xamarin.Bindings.Koloda
     }
 
     // @interface OverlayView : UIView
-    [BaseType(typeof(UIView))]
+    [BaseType(typeof(UIView), Name = "_TtC6Koloda11OverlayView")]
     interface OverlayView
     {
         // -(instancetype _Nonnull)initWithFrame:(CGRect)frame __attribute__((objc_designated_initializer));
         [Export("initWithFrame:")]
         [DesignatedInitializer]
-        IntPtr Constructor(CGRect frame);
-
-        // -(instancetype _Nullable)initWithCoder:(NSCoder * _Nonnull)aDecoder __attribute__((objc_designated_initializer));
-        [Export("initWithCoder:")]
-        [DesignatedInitializer]
-        IntPtr Constructor(NSCoder aDecoder);
+        IntPtr Constructor(CGRect frame); 
     }
 }
